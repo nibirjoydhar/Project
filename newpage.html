@@ -6,6 +6,15 @@
     <title>New Page</title>
 </head>
 <body>
-    <p>This is a new page.</p>
+    <p id="pid">This is a new page.</p>
+    <button type="button" onclick="call()">click</button>
+
+    <script>
+        function call(){
+            document.getElementById("pid").innerText="From Java script";
+        }
+
+    </script>
+
 </body>
 </html>

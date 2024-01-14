@@ -16,12 +16,10 @@
 </head>
 
 <body>
-
-    <p id="style1">Using id</p>
+    <iframe src="newpage.html" frameborder="2" height="200px" width="300"></iframe>
+    <h3 id="id1">Using id</h3>
+    <button type="button" onclick="dothis()">Click Here</button>
     <p class="class1">Using class</p>
-
-
-
     <abbr title="Facebook">Fb</abbr> is a short form.
     <a href="newpage.html" target="_blank">new page</a>
     <br>
@@ -31,6 +29,12 @@
         1100-Dhaka, Bangladesh
     </address>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, mollitia.</p>
+
+    <script>
+        function dothis(){
+            document.getElementById("id1").innerHTML="ok Bye"
+        }
+    </script>
 </body>
 
 </html>

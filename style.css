@@ -1,10 +1,24 @@
 p{
     color:blue;
-    text-align: right;
+    text-align: left;
 }
 #style1{
     color:green;
 }
 .class1{
     color: magenta;
+}
+#stl{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 400px 100px 400px;
+    padding: 100px;
+
+}
+.st5{
+    border:1px solid red;
+    color: red;
+    background-color: cyan;
 }
